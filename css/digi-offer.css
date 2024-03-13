@@ -1,0 +1,85 @@
+.digiOffer{
+    width: 100%;
+    height: 458px;
+}
+.digiOffer .title{
+    width: 100%;
+    height: 102px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    align-items: center;
+}
+.digiOffer .title h2{
+    font-size: 31px;
+    font-weight: 500;
+    align-items: center;
+    line-height: 70px;
+}
+.digiOffer .swiper{
+    width: 100%;
+    height: 358px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+    display: flex;
+}
+.digiOffer .swiper .swiper-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #e0e0e2;
+}
+
+.digiOffer .swiper-slide{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc((100% - 1px) / 2) !important;
+
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.digiOffer .swiper .swiper-wrapper .swiper-slide a{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+}
+.digiOffer .swiper .swiper-wrapper .swiper-slide a .swiper-slide1{
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    background-color: #f0f0f1;
+    overflow: hidden;
+    text-align: center;
+    justify-content: center;
+    padding: 8px 4px;
+    margin: 20px auto;
+    position: relative;
+    align-items: center;
+}
+.digiOffer .swiper .swiper-wrapper .swiper-slide a .swiper-slide1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+   text-align: center;
+}
+.digiOffer .swiper .swiper-slide a h4{
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+.digiOffer .swiper .mySwiper4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}

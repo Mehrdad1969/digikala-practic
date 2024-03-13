@@ -1,0 +1,17 @@
+.shoeBanner{
+    width: 100%;
+    height: 167px;
+    margin-top: 16px;
+}
+.shoeBanner .shoes{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.shoeBanner .shoes img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

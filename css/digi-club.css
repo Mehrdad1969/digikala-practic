@@ -1,0 +1,102 @@
+.digiClub{
+    width: 100%;
+    height: 96px;
+    margin-top: 20px;
+}
+.digiClub .digiClub1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%), radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+    border-radius: 16px;
+    align-items: center;
+    margin-top: 8px;
+    padding: 12px 16px;
+    position: relative;
+}
+.digiClub .digiClub1 .dclubLeft{
+    width: 814px;
+    height: 64px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 16px;
+}
+.digiClub .digiClub1 .dclubLeft .dclubLeft1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 8px;
+    overflow: hidden;
+    gap: 4px;
+
+}
+.digiClub .digiClub1 .dclubLeft .dclubLeft1 .dclubLeft2{
+    width: 274px;
+    height: 64px;
+    background-color: white;
+    align-items: center;
+    border-radius: 0 8px 8px 0;
+}
+.digiClub .digiClub1 .dclubLeft .dclubLeft1 .dclubLeft2 .dclubLeft3{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    position: relative;
+
+}
+.digiClub .digiClub1 .dclubLeft .dclubLeft1 .dclubLeft2 .dclubLeft3 .dclubImage{
+    width: 168px;
+    height: 60px;
+    position: absolute;
+    left: 0;
+}
+.digiClub .digiClub1 .dclubLeft .dclubLeft1 .dclubLeft2 .dclubLeft3 .dclubImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+}
+.digiClub .digiClub1 .dclubLeft .dclubLeft1 .dclubLeft2 .dclubLeft3 span{
+    margin-right: 4px;
+    font-size: 12px;
+    color: black;
+}
+.digiClub .digiClub1 .dclubLeft .dclubLeft1 .dclubLeft2 .dclubLeft3 .dclubLeft4{
+    width: 23px;
+    height: 22px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.digiClub .digiClub1 .dclubLeft .dclubLeft1 .dclubLeft2 .dclubLeft3 .dclubLeft4 svg{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transform: scale(75%);
+}
+.digiClub .digiClub1 .logo{
+    width: 119px;
+    height: 33px;
+    margin-right: 26px;
+}
+.digiClub .digiClub1 .logo .logoLink{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    cursor: pointer;
+}
+.digiClub .digiClub1 .logo .logoLink img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

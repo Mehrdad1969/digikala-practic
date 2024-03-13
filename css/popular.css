@@ -1,0 +1,154 @@
+.popular{
+    width: 100%;
+    height: 250px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.popular .popular1{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+    padding: 24px 0;
+    position: relative;
+}
+.popular .popular1 .popularSlide{
+    width: 100%;
+    height: 100%;
+ }
+.popular .popular1 .popularSlide .swiper{
+    width: 100%;
+    height: 100%;
+}
+.popular .popular1 .popularSlide .swiper .swiper-wrapper{
+    width: 100%;
+    height: 100%;
+}
+.popular .popular1 .popularSlide .swiper .swiper-wrapper .swiper-button-next{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+.popular .popular1 .swiper-button-next:after{
+    font-size: 13px;
+    color: black;
+    font-weight: 700;
+}
+.popular .popular1 .swiper-button-prev:after{
+    font-size: 13px;
+    color: black;
+    font-weight: 700;
+}
+.popular .popular1 .swiper-button-prev{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #e0e0e2;
+    justify-content: center;
+    align-items: center;
+}
+.popular .popular1 .swiper-button-next{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid #e0e0e2;
+    justify-content: center;
+    align-items: center;
+}
+.popular .popular1 .popularSlide .swiper .swiper-wrapper .swiper-slide{
+    width: 100%;
+    height: 100%;
+}
+.popular .popular1 .popularSlide .swiper .swiper-wrapper .swiper-slide a{
+    width: 100%;
+    height: 100%;
+    padding: 4px 16px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+}
+.popular .popular1 .popularSlide .swiper .swiper-wrapper .swiper-slide a .swiper-slide1{
+    width: 110px;
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+}
+.popular .popular1 .popularSlide .swiper .swiper-wrapper .swiper-slide a .swiper-slide1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.popular .popular1 .popularTitle{
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.popular .popular1 .popularTitle .popularLogo{
+    display: flex;
+    margin-left: 8px;
+}
+.popular .popular1 .popularTitle p{
+    font-size: 2.1rem;
+    font-weight: 500;
+    line-height: 2.1rem;
+}
+.popular .popular1 .popularSlide{
+    width: 100%;
+    height: 118px;
+    margin-top: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.popularSlide .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.popularSlide .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    border-left: 1px solid #e0e0e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popularSlide .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.popularSlide .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.popularSlide .append-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.popularSlide .append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+}

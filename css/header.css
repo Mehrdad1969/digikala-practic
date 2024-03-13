@@ -1,0 +1,252 @@
+header{
+    width: 100%;
+    background-color: white;
+}
+header .banner{
+    width: 100%;
+    height: 60px;
+}
+header .banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+header .menu1{
+    width: 100%;
+    height: 68px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0 16px;
+    background-color: white;
+}
+header .menu1 .logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+header .menu1 .search{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+header .menu1 .search form{
+    width: 600px;
+    height: 44px;
+}
+header .menu1 .search form label{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+
+}
+header .menu1 .search form label svg{
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+header .menu1 .search form label input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding-right: 50px;
+    border-radius: 8px;
+    background-color: #f0f0f1;
+}
+header .menu1 .links{
+    height: 100%;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+header .menu1 .links a:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 1px solid rgb(224, 224, 226);
+    color: rgb(12, 12, 12);
+    padding: 8px 16px;
+    border-radius: 8px;
+    gap: 4px;
+    font-size: 12px;
+}
+header .menu1 .links span{
+}
+header .menu1 .links a:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+header .menu2{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    box-shadow: 0 1px 2px silver;
+    background-color: white;
+}
+header .menu2 nav{
+    height: 100%;
+}
+header .menu2 nav .list1{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+header .menu2 nav .list1 .item1{
+    height: 100%;
+    position: relative;
+    z-index: 10000;
+}
+header .menu2 nav .list1 .item1 svg{
+    align-items: center;
+    margin-left: 3px;
+}
+
+header .menu2 nav .list1 .item1::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: crimson;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: all 300ms linear;
+    transform-origin: left;
+}
+header .menu2 nav .list1 .item1:hover::after{
+    transform: scaleX(1);
+}
+header .menu2 nav .list1 .item1 .link1{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    padding: 0 12px;
+}
+/*header .menu2 nav .list1 .item1 .link1 svg{*/
+/*    padding-left: 1px;*/
+/*}*/
+header .menu2 nav .list1 .item1:first-child{
+    position: relative;
+}
+header .menu2 nav .list1 .item1:first-child .link1{
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 0;
+}
+
+header .menu2 nav .list1 .item1:first-child .nav2{
+    width: 150%;
+    height: calc(90dvh - 40px - 68px - 60px);
+    position: absolute;
+    top: 100%;
+    right: 0;
+    display: none;
+}
+header .menu2 nav .list1 .item1:first-child:hover .nav2{
+    display: block;
+ }
+
+header .menu2 nav .list1 .item1:first-child .nav2 .list2{
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    overflow: auto;
+    direction: ltr;
+}
+header .menu2 nav .list1 .item1:first-child .nav2 .list2 .item2{
+    width: 100%;
+    height: 50px;
+    direction: rtl;
+}
+
+header .menu2 nav .list1 .item1:first-child .nav2 .list2 .item2 .link2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 8px;
+    text-decoration: none;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(63, 64, 100);
+    background-color: #f6f6f6;
+}
+header .menu2 nav .list1 .item1:first-child .nav2 .list2 .item2 .link2:hover{
+    background-color: white;
+    color: crimson;
+}
+header .menu2 nav .list1 .item1:first-child .nav2 .list2 .item2 .nav3{
+    height: 100%;
+    width: 60vw;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    overflow: auto;
+    direction: ltr;
+    display: none;
+    background-color: white;
+}
+header .menu2 nav .list1 .item1:first-child .nav2 .list2 .item2:first-child .nav3{
+    display: block;
+}
+header .menu2 nav .list1 .item1:first-child .nav2 .list2 .item2:hover .nav3{
+    display: block;
+}
+header .menu2 nav .list1 .item1:first-child .nav2 .list2 .item2 .nav3 .list3{
+    width: 100%;
+    height: calc(90dvh - 40px - 68px - 60px);
+    display: flex;
+    list-style: none;
+    flex-flow: wrap;
+    row-gap: 16px;
+    direction: rtl;
+    padding: 16px;
+}
+header .menu2 nav .list1 .item1:first-child .nav2 .list2 .item2 .nav3 .list3 .item3{
+    width: 25%;
+}
+header .menu2 nav .list1 .item1:first-child .nav2 .list2 .item2 .nav3 .list3 .item3 .link3{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(129, 133, 139);
+    font-weight: 400;
+}
+header .menu2 nav .list1 .item1:first-child .nav2 .list2 .item2 .nav3 .list3 .item3 .link3a{
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+header .menu2 nav .list1 .item1:first-child .nav2 .list2 .item2 .nav3 .list3 .item3 .link3:hover{
+    color: crimson;
+}
+header .menu2 .open-city{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: rgb(63, 64, 100);
+    font-size: 12px;
+    gap: 8px;
+    z-index: 500;
+}

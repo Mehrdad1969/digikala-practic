@@ -1,0 +1,46 @@
+.washing{
+    width: 100%;
+    height: 264px;
+    margin-top: 16px;
+}
+.washing .bannerWashing{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.washing .bannerWashing .bannerWashing1{
+    width: calc(50% - 8px);
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+.washing .bannerWashing .bannerWashing1 .bannerWashing2{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+.washing .bannerWashing .bannerWashing1 .bannerWashing2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+.washing .bannerWashing .washing1{
+    width: calc(50% - 8px);
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    margin-right: 16px;
+}
+.washing .bannerWashing .washing1 .washing2{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+.washing .bannerWashing .washing1 .washing2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}

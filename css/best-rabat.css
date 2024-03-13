@@ -1,0 +1,140 @@
+.bestRabat{
+    width: 100%;
+    height: 812px;
+    margin-top: 16px;
+}
+.bestRabat .bestRabat1{
+    width: 100%;
+    height: 100%;
+    padding: 0 12px;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+}
+.bestRabat .bestRabat1 .bestRabat2{
+    width: 100%;
+    height: 76px;
+    margin: 0 0 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 0;
+}
+.bestRabat .bestRabat1 .bestRabat2 .bestRabat2a{
+    width: 24px;
+    height: 24px;
+}
+.bestRabat .bestRabat1 .bestRabat2 .rabatTitle{
+    font-size: 21px;
+    margin-right: 8px;
+    font-weight: 700;
+}
+.bestRabat .bestRabat1 .bestRabat3{
+    width: 100%;
+    height: 726px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.bestRabat .bestRabat1 .bestRabat3 .bestRabat-link:nth-child(6){
+    border-left: none;
+}
+.bestRabat .bestRabat1 .bestRabat3 .bestRabat-link:nth-child(12){
+    border-left: none;
+}
+.bestRabat .bestRabat1 .bestRabat3 .bestRabat-link:nth-child(18){
+    border-left: none;
+}
+
+
+.bestRabat .bestRabat1 .bestRabat3 .bestRabat-link{
+    width: 218px;
+    height: 242px;
+    padding: 12px 8px;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 1px solid #f0f0f1;
+    border-left: 1px solid #f0f0f1;
+
+}
+.bestRabat .bestRabat1 .bestRabat3 .bestRabat-link .rabaImage{
+    width: 201px;
+    height: 150px;
+    margin: 0 0 4px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: center;
+}
+.bestRabat .bestRabat1 .bestRabat3 .bestRabat-link .rabatPrice{
+    width: 201px;
+    height: 63px;
+}
+.bestRabat .bestRabat1 .bestRabat3 .bestRabat-link .rabatPrice .rabatPrice1{
+    width: 201px;
+    height: 33px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.bestRabat .bestRabat1 .bestRabat3 .bestRabat-link .rabatPrice .rabatPrice1 .rabatPrice1a{
+    width: 100%;
+    height: 50%;
+    direction: ltr;
+}
+.bestRabat .bestRabat1 .bestRabat3 .bestRabat-link .rabatPrice .rabatPrice2{
+    width: 100%;
+    height: 50%;
+    font-size: 12px;
+    font-weight: 500;
+    align-items: center;
+    position: relative;
+}
+.bestRabat .bestRabat1 .bestRabat3 .bestRabat-link .rabatPrice .rabatPrice2 del{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: #c0c2c5;
+}
+.bestRabat .bestRabat1 .bestRabat3 .bestRabat-link .rabatPrice .rabatPrice1 .rabatPrice1a .rabatPrice1c{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+.bestRabat .bestRabat1 .bestRabat3 .bestRabat-link .rabatPrice .rabatPrice1 .rabatPrice1b{
+    width: 34px;
+    height: 20px;
+    background-color: #d32f2f;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    position: relative;
+}
+.bestRabat .bestRabat1 .bestRabat3 .bestRabat-link .rabatPrice .rabatPrice1 .rabatPrice1b span{
+    color: white;
+    font-size: 12px;
+    line-height: 20px;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    position: absolute;
+    bottom: 1px;
+}
+.bestRabat .bestRabat1 .bestRabat3 .bestRabat-link .rabaImage .rabatSvg{
+    width: 24px;
+    height: 24px;
+    border: 1px solid crimson;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.bestRabat .bestRabat1 .bestRabat3 .bestRabat-link .rabaImage img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}

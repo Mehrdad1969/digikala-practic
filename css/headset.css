@@ -1,0 +1,266 @@
+.headset .lastView{
+    width: 1336px;
+    height: 418px;
+    direction: rtl;
+    margin-top: 16px;
+    background-color: #dadada;
+    border-radius: 16px;
+}
+.headset .lastView .lastView1{
+    width: 100%;
+    height: 100%;
+    /*background-color: coral;*/
+    border: 1px solid #dadada;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+}
+.headset .lastView .lastView1 .lastView2{
+    width: 25%;
+    height: 100%;
+    padding: 8px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+/*.lastView .lastView1 .lastView2 .lastView2b{*/
+/*    border-left: 1px solid #e8e8e8;*/
+/*    z-index: 9999;*/
+/*}*/
+
+
+.headset .lastView .lastView1 .lastView2 .lastViewtitle{
+    width: 292px;
+    height: 66px;
+    /*background-color: cornflowerblue;*/
+    align-items: center;
+    margin-bottom: 8px;
+    position: absolute;
+    top: 0;
+    right: auto;
+    padding: 10px 15px;
+}
+.headset .lastView .lastView1 .lastView2 .lastViewtitle h4{
+    font-size: 16px;
+    font-weight: 700;
+}
+.headset .lastView .lastView1 .lastView2 .lastViewtitle p{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.headset .lastView .lastView1 .lastView2 .lastView3{
+    width: 292px;
+    height: 292px;
+    position: absolute;
+    top: 66px;
+    right: auto;
+    align-items: center;
+    justify-content: center;
+}
+.headset .lastView .lastView1 .lastView2 .lastView3 .lastView4{
+    width: 100%;
+    height: 100%;
+    /*background-color: #f3f3f3;*/
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.headset .lastView .lastView1 .lastView2 .lastView3 .lastView4 .lastView4a{
+    width: 145px;
+    height: 145px;
+    text-decoration: none;
+    display: block;
+}
+.headset .lastView .lastView1 .lastView2 .lastView3 .lastView4 .lastView4a .lastView-image1{
+    width: 145px;
+    height: 145px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 8px;
+}
+.headset .lastView .lastView1 .lastView2 .lastView3 .lastView4 .lastView4a .lastView-image1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.headset .lastView .lastView1 .lastView2 .lastView3 .lastView4 .lastView4a .lastView-image2{
+    width: 145px;
+    height: 145px;
+    border-right: 1px solid #f3f3f3;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 8px;
+}
+.headset .lastView .lastView1 .lastView2 .lastView3 .lastView4 .lastView4a .lastView-image2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.headset .lastView .lastView1 .lastView2 .lastView3 .lastView4 .lastView4a .lastView-image3{
+    width: 145px;
+    height: 145px;
+    border-left: 1px solid #e8e8e8;
+    padding: 8px;
+}
+.headset .lastView .lastView1 .lastView2 .lastView3 .lastView4 .lastView4a .lastView-image3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.headset .lastView .lastView1 .lastView2 .lastView3 .lastView4 .lastView4a .lastView-image4{
+    width: 145px;
+    height: 145px;
+    padding: 8px;
+}
+.headset .lastView .lastView1 .lastView2 .lastView3 .lastView4 .lastView4a .lastView-image4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.headset .lastView .lastView1 .lastView2 .lastView5{
+    position: absolute;
+    bottom: 15px;
+    left: 140px;
+}
+.headset .lastView .lastView1 .lastView2 .lastView5 .lastView5a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    cursor: pointer;
+}
+.headset .lastView .lastView1 .lastView2 .lastView5 .lastView5a span{
+    font-size: 12px;
+    font-weight: 700;
+    color: #19bfd3;
+}
+
+
+
+.headset .lastView .lastView1 .carGear .lastView2b{
+    width: 100%;
+    height: 100%;
+    border-left: 1px solid #e8e8e8;
+}
+.headset .lastView .lastView1 .carGear{
+    width: 332px;
+    height: 100%;
+    padding: 8px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.headset .lastView .lastView1 .carGear .lastViewtitle{
+    width: 292px;
+    height: 66px;
+    /*background-color: cornflowerblue;*/
+    align-items: center;
+    margin-bottom: 8px;
+    position: absolute;
+    top: 0;
+    right: auto;
+    padding: 10px 15px;
+}
+.headset .lastView .lastView1 .carGear .lastViewtitle h4{
+    font-size: 16px;
+    font-weight: 700;
+}
+.headset .lastView .lastView1 .carGear .lastViewtitle p{
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.headset .lastView .lastView1 .carGear .lastView3{
+    width: 292px;
+    height: 292px;
+    position: absolute;
+    top: 66px;
+    right: auto;
+    align-items: center;
+    justify-content: center;
+}
+.headset .lastView .lastView1 .carGear .lastView3 .lastView4{
+    width: 100%;
+    height: 100%;
+    /*background-color: #f3f3f3;*/
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.headset .lastView .lastView1 .carGear .lastView3 .lastView4 .lastView4a{
+    width: 145px;
+    height: 145px;
+    text-decoration: none;
+    display: block;
+}
+.headset .lastView .lastView1 .carGear .lastView3 .lastView4 .lastView4a .lastView-image1{
+    width: 145px;
+    height: 145px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 8px;
+}
+.headset .lastView .lastView1 .carGear .lastView3 .lastView4 .lastView4a .lastView-image1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.headset .lastView .lastView1 .carGear .lastView3 .lastView4 .lastView4a .lastView-image2{
+    width: 145px;
+    height: 145px;
+    border-right: 1px solid #f3f3f3;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 8px;
+}
+.headset .lastView .lastView1 .carGear .lastView3 .lastView4 .lastView4a .lastView-image2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.headset .lastView .lastView1 .carGear .lastView3 .lastView4 .lastView4a .lastView-image3{
+    width: 145px;
+    height: 145px;
+    object-fit: cover;
+    border-left: 1px solid #e8e8e8;
+    padding: 8px;
+}
+.headset .lastView .lastView1 .carGear .lastView3 .lastView4 .lastView4a .lastView-image3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.headset .lastView .lastView1 .carGear .lastView3 .lastView4 .lastView4a .lastView-image4{
+    width: 145px;
+    height: 145px;
+    padding: 8px;
+}
+.headset .lastView .lastView1 .carGear .lastView3 .lastView4 .lastView4a .lastView-image4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.headset .lastView .lastView1 .carGear .lastView5{
+    position: absolute;
+    bottom: 15px;
+    left: 140px;
+}
+.headset .lastView .lastView1 .carGear .lastView5 .lastView5a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    cursor: pointer;
+}
+.headset .lastView .lastView1 .carGear .lastView5 .lastView5a span{
+    font-size: 12px;
+    font-weight: 700;
+    color: #19bfd3;
+}

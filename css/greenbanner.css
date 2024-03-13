@@ -1,0 +1,116 @@
+.greenBanner{
+    width: 100%;
+    max-width: 1336px;
+    height: 110px;
+    background-color: #6bb927;
+    border-radius: 16px;
+    margin: 15px auto;
+}
+.greenBanner .greenBanner1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.greenBanner .greenBanner1 a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+.greenBanner .greenBanner1 a .image{
+    display: flex;
+    align-items: center;margin: 25px 55px 10px;
+}
+.greenBanner .greenBanner1 a .image .image1 {
+    width: 62px;
+    height: 62px;
+}
+.greenBanner .greenBanner1 a .image .image1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.greenBanner .greenBanner1 a .image .image2{
+    width: 250px;
+    height: 28px;
+    margin: 0 25px;
+}
+.greenBanner .greenBanner1 a .image .percent{
+    width: 112px;
+    height: 28px;
+    background: rgb(95,208,40);
+    background: linear-gradient(0deg, rgba(95,208,40,1) 0%, rgba(57,174,0,1) 100%);
+    border-radius: 16px;
+    border:1px solid white;
+}
+
+.greenBanner .greenBanner1 a .image .percent p{
+    color: white;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: 700;
+}
+.greenBanner .greenBanner1 .discount{
+    width: 100%;
+    height: 100%;
+    margin: 16px 25px;
+    display: flex;
+    position: relative;
+}
+.greenBanner .greenBanner1 .discount .discountProducts{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    left: 30px;
+}
+.greenBanner .greenBanner1 .discount .discountProducts a{
+    width: 74px;
+    height: 74px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 0 16px 8px;
+    padding: 8px;
+    overflow: hidden;
+    text-decoration: none;
+}
+.greenBanner .greenBanner1 .discount .discountProducts a img{
+    width: 58px;
+    height: 58px;
+}
+.greenBanner .greenBanner1 .discount .discountProducts1{
+    width: 146px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    border-radius: 40px;
+    align-items: center;
+    padding: 12px 20px;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+    margin-top: 25px;
+    justify-content: center;
+}
+.greenBanner .greenBanner1 .discount .discountProducts1 span{
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 700;
+    color: rgb(57, 174, 0);
+    position: absolute;
+    right: 20px;
+    justify-content: center;
+}
+.greenBanner .greenBanner1 .discount .discountProducts1 .arrow{
+   width: 100%;
+   margin-right: 10px;
+    position: absolute;
+    left: -105px;
+    bottom: 5px;
+}
+.greenBanner .greenBanner1 .discount .discountProducts1 .arrow svg{
+    padding-left: -10px;
+}
+
+
+

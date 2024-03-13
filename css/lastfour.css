@@ -1,0 +1,74 @@
+.lastFourBanner{
+margin-top: 20px;
+}
+.lastFourBanner .fourBanner{
+    width: 100%;
+    height: 242px;
+}
+.lastFourBanner .title{
+    width: 100%;
+    max-width: 1336px;
+    height: 50px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5px;
+
+}
+.lastFourBanner .title h2{
+    font-size: 18px;
+    align-items: center;
+    margin-right: 20px;
+}
+.lastFourBanner .title a{
+    text-decoration: none;
+    cursor: pointer;
+}
+.lastFourBanner .title a span{
+    font-size: 12px;
+    font-weight: 600;
+    color: #19bfd3;
+    margin-left: 15px;
+}
+.lastFourBanner .fourBanner .fourBanner1{
+    width: 1336px;
+    height: 242px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.lastFourBanner .fourBanner .fourBanner1 .four__link:last-child{
+    margin-left: 0;
+}
+.lastFourBanner .fourBanner .fourBanner1 .four__link{
+    width: calc(25% - 12px);
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    margin-left: 20px;
+    border: 1px solid #c4c4c4;
+    cursor: pointer;
+    border-radius: 13px 13px 0 0;
+    overflow: hidden;
+}
+.lastFourBanner .fourBanner .fourBanner1 .four__link .fourBanner2{
+    width: 100%;
+    height: 201px;
+    display: flex;
+
+}
+.lastFourBanner .fourBanner .fourBanner1 .four__link .text{
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+.lastFourBanner .fourBanner .fourBanner1 .four__link .fourBanner2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0; !important;
+}
